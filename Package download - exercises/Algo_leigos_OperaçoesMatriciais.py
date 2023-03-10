@@ -21,14 +21,12 @@ changeIt = ([[1,2,3,4], [5,6,7,8]])
 c= np.transpose(changeIt)
 print('\n', c)
 
-# Inversão matricial é aplicada a matriz M x M (que tem o mesmo nº de linhas e
-# colunas)
+# Inversão matricial é aplicada a matriz M x M (que tem o mesmo nº de linhas e colunas)
 
 d= np.identity(4)
 print('\n', d)
 
-# O inverso da matriz A é A elevado a -1, podendo ser obtido com a função 
-# linalg.inv
+# O inverso da matriz A é A elevado a -1, podendo ser obtido com a função 'linalg.inv'
 
 e= np.array([[1,2], [3,4]])
 f= np.linalg.inv(e)
