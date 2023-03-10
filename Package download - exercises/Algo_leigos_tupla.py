@@ -28,4 +28,3 @@ for Value4 in MyNewTuple:
         for Value5 in Value4:
             if type (Value5)==int:
                 print('\t\t\t\t', Value5)
-

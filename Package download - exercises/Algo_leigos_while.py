@@ -21,6 +21,3 @@ def SecretNumber():
         else:
             print('Incorrect first value.')
         print('try again!')
-                
-                
-        

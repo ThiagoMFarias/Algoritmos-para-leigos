@@ -9,8 +9,7 @@ ListaA = [0,1,2,3]
 print(ListaA)
 ListaB = [4,5,6,7]
 
-# A função 'extend' adiciona membros da lista a na lista b. Posso usar também
-# 'append' e 'remove'.
+# A função 'extend' adiciona membros da lista a na lista b. Posso usar também 'append' e 'remove'.
 ListaA.extend(ListaB)
 ListaA.append(-5)
 ListaB.remove(7) # Repare que aqui eu retirei o 7 da ListaB depois de tê-lo added na ListaA

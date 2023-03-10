@@ -32,7 +32,3 @@ e= np.array([[1,2], [3,4]])
 f= np.linalg.inv(e)
 g= np.allclose(np.dot(e,f), np.identity(2))
 print(g)
-
-
-
-

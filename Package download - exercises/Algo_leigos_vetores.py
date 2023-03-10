@@ -12,7 +12,6 @@ b= np.array([2,2,4,4])
 
 A=a==b
 
-
 B=a<b
 
 print(A,B)
