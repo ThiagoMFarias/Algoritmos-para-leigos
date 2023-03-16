@@ -1,2 +1,2 @@
-# Algoritmos para leigos
- Exercícios do livro **Algoritmos para leigos** disponível na versão *impressa*.
+# Algoritmos para Leigos
+ Exercícios do livro **Algoritmos para Leigos** disponível na versão *impressa*.
