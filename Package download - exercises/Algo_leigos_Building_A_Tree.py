@@ -8,7 +8,7 @@ class binaryTree:
         return str(self.nodeData)
 
 tree = binaryTree("Root")
-BranchA = binaryTree('Branch A')
+BranchA = binaryTree('Branch A1')
 BranchB = binaryTree('Branch B')
 tree.left = BranchA
 tree.right = BranchB
