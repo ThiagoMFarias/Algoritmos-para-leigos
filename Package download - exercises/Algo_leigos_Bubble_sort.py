@@ -1,10 +1,10 @@
-vet = [21,9,1,45,11]
+vet = [21,9,1,45,11,90,132,87,3]
 
 for a in range(0, len(vet)):
     print(vet[a])
 
 for i in range(0, len(vet)):
-    for x in range(0, 4)  :  
+    for x in range(0, len(vet)-1):  # antes estava assim: range(0,4)
         if vet[x] > vet[x+1]:
             aux = vet[x]
             vet[x] = vet[x+1]
