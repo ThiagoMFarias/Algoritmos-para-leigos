@@ -20,4 +20,6 @@ def SecretNumber():
                 print('Incorrect second value.')
         else:
             print('Incorrect first value.')
-        print('try again!')
+        print('Try again!')
+
+# Essa função não aceita nenhum argumento (fora self, se for um método de classe). Se você tentar passar argumentos ao chamá-la, causará um erro:

@@ -12,6 +12,8 @@ SetY= SetA.intersection(SetB)
 SetZ= SetA.difference(SetB)
 print(SetX, SetY, SetZ)
 
+print('{0}\n{1}\n{2}'.format(SetX,SetY,SetZ))
+
 # A é superconjunto de Y
 Plus= SetA.issuperset(SetY)
 print(Plus)
@@ -24,5 +26,5 @@ print(Minus)
 SetA.add('white')
 print(SetA)
 
-result=SetA.issubset(SetX)
+result=SetA.issubset(-SetX)
 print(result)
