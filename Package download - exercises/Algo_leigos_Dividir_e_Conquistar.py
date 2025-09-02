@@ -8,11 +8,9 @@ def search(searchList, key):
     elif key == searchList[mid]:
         print('Key found!')
         return searchList[mid]
-    
     elif key > searchList[mid]:
         print('SearchList now contains ', searchList[mid:len(searchList)])
         search(searchList[mid:len(searchList)], key)
-
     else:
         print('SearchList now contains ', searchList[0:mid])
         search(searchList[0:mid], key)
